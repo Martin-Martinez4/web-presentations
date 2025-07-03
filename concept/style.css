@@ -1,0 +1,74 @@
+body { margin: 0; padding: 0; background: #001111;}
+
+.page {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.title{
+  text-align: center;
+}
+
+.content{
+  height: 80vh;
+  width: 95vw;
+  padding: 1rem;
+}
+
+.buttons{
+  position: absolute;
+  bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.button__prev{
+  margin-left: 1rem;
+}
+
+.button__next{
+  margin-right: 1rem;
+}
+
+.usage {
+  position: absolute;
+  top: 40px;
+  line-height: 50px;
+  z-index: 1000;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  pointer-events: none;
+}
+
+h1{
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.fade-in-element {
+  opacity: 0;
+  transition: opacity .5s ease-in-out; /* Defines the transition effect */
+  pointer-events: none
+}
+
+.fade-in-element.is-visible {
+  opacity: 1; /* Target opacity when faded in */
+  pointer-events: all;
+}
+
+.button{
+  background: #ffeeee;
+}
