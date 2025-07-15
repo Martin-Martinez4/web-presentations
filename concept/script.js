@@ -10,12 +10,15 @@ class CurrentPageMediator{
   }
 
   setCurrentPage(number){
+    
+    if(number > pagesLength-1){
+      return
+    }
+    if(number < 0){
+      return
+    }
     const lastPage = this.currentPage
     this.currentPage = number
-
-    console.log(lastPage)
-    console.log(this.currentPage)
-
     pages[lastPage].classList.toggle('is-visible');
     pages[this.currentPage].classList.toggle('is-visible');
   }
@@ -30,7 +33,7 @@ function handleClick(currentPage){
 
 pages[0].classList.toggle('is-visible')
 
-for(let p = 0; p < pagesLength-1; p++ ){
+for(let p = 0; p < pagesLength; p++ ){
   const currentPage = pages[p]
 
 
@@ -38,7 +41,14 @@ for(let p = 0; p < pagesLength-1; p++ ){
   const prevPageButton = currentPage.querySelector(".button__prev")
 
   if(p == 0){
-    prevPageButton.classList.toggle("fade-in-element")
+    prevPageButton.classList.toggle("opacity-0")
+    prevPageButton.classList.toggle("pointer-events-none")
+
+  }
+
+  if(p == pagesLength-1){
+    nextPageButton.classList.toggle("fade-in-element")
+
   }
 
   nextPageButton.addEventListener("click", (e)=> {
