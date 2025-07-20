@@ -24,6 +24,8 @@ body { margin: 0; padding: 0; background: #001111;}
   margin-bottom: 4rem;
   width: 90vw;
   padding: 1rem;
+  overflow: auto;
+  max-height: 90vh;
 }
 
 .buttons{
@@ -31,7 +33,7 @@ body { margin: 0; padding: 0; background: #001111;}
   bottom: 1rem;
   display: flex;
   justify-content: space-between;
-  width: 100vw;
+  width: 90vw;
 }
 
 .usage {
@@ -85,13 +87,17 @@ h1{
 
 .fade-in-element {
   opacity: 0;
-  display: none;
-  transition: opacity .5s ease-in-out; /* Defines the transition effect */
+  /* display: none; */
+  transition: opacity .75s ease-in-out allow-discrete; /* Defines the transition effect */
   pointer-events: none
 }
 
 .opacity-0 {
   opacity: 0;
+}
+
+.overflow-auto{
+  overflow: auto;
 }
 
 .pointer-events-none {
@@ -103,3 +109,4 @@ h1{
   display: flex;
   pointer-events: all;
 }
+

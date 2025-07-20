@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="90mm"
+   height="27.5mm"
+   viewBox="0 0 35.69865 10.847916"
+   version="1.1"
+   id="svg70968"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="and_gate.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview70970"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.1108586"
+     inkscape:cx="179.21098"
+     inkscape:cy="99.650946"
+     inkscape:window-width="2560"
+     inkscape:window-height="1355"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs70965" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-4.2319332,-2.031352)">
+    <path
+       style="fill:none;stroke:#FFFFFF;stroke-width:0.26721px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 33.050889,7.7012625 H 26.345946"
+       id="path720-3-6-7" />
+    <path
+       style="fill:none;stroke:#FFFFFF;stroke-width:0.26721px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 13.381387,4.3834145 H 6.6764365"
+       id="path720-3-6-7-5" />
+    <path
+       style="fill:none;stroke:#FFFFFF;stroke-width:0.26721px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 13.273461,10.391874 H 6.5685105"
+       id="path720-3-6-7-5-3" />
+    <g
+       id="use1079"
+       style="fill:none;stroke:#FFFFFF;stroke-width:2"
+       transform="translate(6.6205805,-5.7738565)">
+      <title
+         id="title71058">And Gate</title>
+      <path
+         d="M 6.6145833,18.520833 V 15.875 13.229167 10.583333 7.9375 h 7.9374997 c 2.922507,0 5.291667,2.36916 5.291667,5.291667 0,2.922506 -2.36916,5.291666 -5.291667,5.291666 z"
+         id="path71060"
+         style="stroke-width:0.264583" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;fill:#FFFFFF;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="4.2043724"
+       y="5.1898689"
+       id="text17189"><tspan
+         sodipodi:role="line"
+         id="tspan17187"
+         style="font-size:3.52778px;stroke-width:0.264583"
+         x="4.2043724"
+         y="5.1898689">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;fill:#FFFFFF;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="33.259151"
+       y="8.5506172"
+       id="text17189-5"><tspan
+         sodipodi:role="line"
+         id="tspan17187-7"
+         style="font-size:3.52778px;stroke-width:0.264583"
+         x="33.259151"
+         y="8.5506172">AxB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;fill:#FFFFFF;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="3.9121058"
+       y="11.178524"
+       id="text17189-7"><tspan
+         sodipodi:role="line"
+         id="tspan17187-8"
+         style="font-size:3.52778px;stroke-width:0.264583"
+         x="3.9121058"
+         y="11.178524">B</tspan></text>
+  </g>
+</svg>

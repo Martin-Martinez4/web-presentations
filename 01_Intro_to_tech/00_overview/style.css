@@ -1,0 +1,176 @@
+body { margin: 0; padding: 0; background: #001111;}
+
+.page {
+  position: absolute;
+  width: 100vw;
+  min-height: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+
+
+.title{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.content{
+  margin-bottom: 4rem;
+  width: 90vw;
+  padding: 1rem;
+  overflow: auto;
+  max-height: 90vh;
+}
+
+.buttons{
+  position: absolute;
+  bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+}
+
+.usage {
+  position: absolute;
+  top: 40px;
+  line-height: 50px;
+  z-index: 1000;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  pointer-events: none;
+}
+
+h1{
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.bullets__classic{
+  color: white; 
+  font-size: 2rem;
+}
+.bullets__classic>li{
+  margin-bottom: 1rem;
+}
+
+.image__container{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 1.5em;
+  max-width: 100%;
+
+
+}
+
+.text__centered{
+  text-align: center;
+}
+
+.fade-in-element {
+  opacity: 0;
+  /* display: none; */
+  transition: all .75s ease; /* Defines the transition effect */
+  pointer-events: none;
+}
+.from-left-element{
+  transform: translatex(100%); /* Start off-screen above */
+
+}
+.from-top-element{
+  transform: translatey(-100%); /* Start off-screen above */
+
+}
+.scale-element{
+  transform: scale(0, 0);
+
+}
+
+@keyframes animate{
+
+  10%{
+    transform: scale(0, 0.002);
+  }
+  35%{ 
+    transform: scale(0.2, 0.002); 
+  }
+  50%{
+    
+    transform: scale(0.3, 0.002);
+  }
+  60%{
+    
+    transform: scale(0.5, 0.05);
+    
+  }
+  60%{
+    
+    transform: scale(0.75, 0.25);
+    
+  }
+  
+  100%{
+
+    transform: scale(1, 1);
+  }
+}
+
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.overflow-auto{
+  overflow: auto;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.is-visble{
+
+  opacity: 1; /* Target opacity when faded in */
+  display: flex;
+}
+
+.fade-in-element.is-visible {
+  opacity: 1; /* Target opacity when faded in */
+  pointer-events: all;
+}
+.from-left-element.is-visible{
+
+  transform: translatex(0); /* Start off-screen above */
+  transition: all 1s cubic-bezier(0.75, 0.25, 0, 1.05)
+
+}
+.from-top-element.is-visible{
+ 
+  transform: translatey(0); /* Start off-screen above */
+  transition: all 1s cubic-bezier(0.75, 0.25, 0, 1.05);
+}
+.scale-element.is-visible{
+  /* animation: animate; */
+  /* transform: scale(0,0);
+  transition: all 1s cubic-bezier(0.75, 0.25, 0, 1.05) */
+  animation: .75s animate .10s forwards;
+}
+
