@@ -1,4 +1,15 @@
-body { margin: 0; padding: 0; background: #001111;}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('./assets/fonts/RobotoMono/RobotoMono-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'FiraSans';
+  src: url('./assets/fonts/FiraSans/FiraSans-Regular.ttf') format('truetype');
+}
+
+
+body { margin: 0; padding: 0; background: #001111; font-family: 'RobotoMono', 'Courier New', Courier, monospace;}
 
 .page {
   position: absolute;
@@ -45,13 +56,11 @@ body { margin: 0; padding: 0; background: #001111;}
   font-size: 20px;
   width: 100%;
   text-align: center;
-  font-family: "Arial Black", Gadget, sans-serif;
   pointer-events: none;
 }
 
 h1{
   color: white;
-  font-family: arial;
   font-weight: bold;
   font-size: 3em;
 }
@@ -73,7 +82,6 @@ h1{
   gap: 4rem;
 
   color: white;
-  font-family: arial;
   font-weight: bold;
   font-size: 1.5em;
   max-width: 100%;
@@ -84,7 +92,6 @@ h1{
 .text-white{
   color: white;
 }
-
 .text__centered{
   text-align: center;
 }
