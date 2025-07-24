@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="90mm"
+   height="27.5mm"
+   viewBox="0 0 35.953465 10.847916"
+   version="1.1"
+   id="svg71191"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="or_gate.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview71193"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.77771465"
+     inkscape:cx="368.38704"
+     inkscape:cy="543.90129"
+     inkscape:window-width="1280"
+     inkscape:window-height="1355"
+     inkscape:window-x="1280"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs71188" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-7.3388925,-4.3433139)">
+    <g
+       id="use390"
+       style="fill:none;stroke:#FFFFFF;stroke-width:2"
+       transform="translate(9.2250266,-3.4618946)">
+      <title
+         id="title71281">Or Gate</title>
+      <path
+         d="M 6.5236328,18.520833 H 11.90625 c 5.291667,0 7.9375,-5.291666 7.9375,-5.291666 0,0 -1.322917,-5.291667 -7.9375,-5.291667 H 6.5236328 c 0.4735846,0.8186706 0.8337984,1.7074809 1.0748698,2.645833 0.2173208,0.845905 0.3389974,1.731915 0.3389974,2.645834 0,0.913918 -0.1216766,1.799928 -0.3389974,2.645833 -0.2410714,0.938352 -0.6012852,1.827163 -1.0748698,2.645833 z"
+         id="path71283"
+         style="stroke-width:0.264583" />
+    </g>
+    <path
+       style="fill:none;stroke:#FFFFFF;stroke-width:0.26721px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 16.72073,12.743865 H 10.015791"
+       id="path720" />
+    <path
+       style="fill:none;stroke:#FFFFFF;stroke-width:0.26721px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 16.658423,6.7646754 H 9.9534836"
+       id="path720-3" />
+    <path
+       style="fill:none;stroke:#FFFFFF;stroke-width:0.26721px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 35.773713,9.7672754 h -6.70494"
+       id="path720-3-6" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;fill:#FFFFFF;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="7.3113317"
+       y="7.6616979"
+       id="text17189-1"><tspan
+         sodipodi:role="line"
+         id="tspan17187-85"
+         style="font-size:3.52778px;stroke-width:0.264583"
+         x="7.3113317"
+         y="7.6616979">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;fill:#FFFFFF;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="35.752762"
+       y="10.593965"
+       id="text17189-5-5"><tspan
+         sodipodi:role="line"
+         id="tspan17187-7-3"
+         style="font-size:3.52778px;stroke-width:0.264583"
+         x="35.752762"
+         y="10.593965">A+B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;fill:#FFFFFF;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="7.4220419"
+       y="13.826043"
+       id="text17189-7-9"><tspan
+         sodipodi:role="line"
+         id="tspan17187-8-7"
+         style="font-size:3.52778px;stroke-width:0.264583"
+         x="7.4220419"
+         y="13.826043">B</tspan></text>
+  </g>
+</svg>
